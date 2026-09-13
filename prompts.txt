@@ -1,0 +1,34 @@
+# Prompts for Text Generation Evaluation (GPT-5+ / Gemini 3+)
+# Format: one prompt per line, grouped by category with comment headers.
+# The run script strips comment lines and blank lines, and uses the
+# 1-indexed line number among prompts as the sample ID (e.g. prompt_01).
+
+## Reasoning (5)
+A farmer has 17 sheep. All but 9 die. How many sheep are left? Explain your reasoning step by step.
+Three people check into a hotel room that costs $30. They each pay $10. Later the clerk realizes the room was only $25 and gives $5 to the bellboy to return. The bellboy keeps $2 and gives $1 back to each guest. Now each guest paid $9 (totaling $27) and the bellboy kept $2, totaling $29. Where did the missing dollar go? Explain the flaw in the framing.
+If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets? Justify your answer.
+A train leaves City A at 60 mph heading toward City B, 300 miles away. Another train leaves City B at 90 mph heading toward City A at the same time. When and where do they meet?
+You are given two ropes, each of which burns unevenly in exactly 60 minutes when lit from one end. Using only these ropes and matches, how do you measure exactly 45 minutes?
+
+## Creative Writing (5)
+Write a 150-word short story about a lighthouse keeper who discovers the ocean has stopped making sound.
+Write a short poem (8-12 lines) from the point of view of an old library book that has not been checked out in decades.
+Write a two-character dialogue-only scene (no narration) between a chess piece and the hand that moves it, exploring the idea of free will.
+Write the opening paragraph of a noir detective story set in a city built entirely underground.
+Compose a short fable, in the style of Aesop, about a clock that is afraid of running out of time, ending with an explicit moral.
+
+## Factual / Knowledge (5)
+Explain the difference between weather and climate in terms a 10-year-old would understand.
+Summarize the causes of the fall of the Western Roman Empire in three concise paragraphs.
+What is the difference between TCP and UDP, and when would an engineer choose one over the other?
+Explain how mRNA vaccines work at a level suitable for a first-year biology undergraduate.
+Describe the main differences between common law and civil law legal systems, with one example country for each.
+
+## Code Generation (3)
+Write a Python function that takes a list of integers and returns the longest strictly increasing subsequence, along with a brief explanation of its time complexity.
+Write a SQL query that finds the second-highest salary in an `employees` table without using LIMIT or OFFSET.
+Implement a simple LRU (Least Recently Used) cache in Python with `get` and `put` methods in O(1) time.
+
+## Dialogue / Instruction-Following (2)
+Act as a patient customer support agent. A customer writes: "I've been charged twice for my subscription this month and no one has responded to my last two emails." Write your reply.
+Explain to me, as if I have never coded before, what an API is — use a real-world analogy and keep it under 120 words.
